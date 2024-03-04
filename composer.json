@@ -1,0 +1,17 @@
+{
+    "name": "jackforester/homework7",
+    "description": "Homework 7",
+    "autoload": {
+        "psr-4": {
+            "Jackforester\\Homework7\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jack Forester"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.8"
+    }
+}

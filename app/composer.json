@@ -1,5 +1,5 @@
 {
-    "name": "nathanhishon/app",
+    "name": "jackforester/app",
     "autoload": {
         "psr-4": {
             "Nathanhishon\\App\\": "src/"

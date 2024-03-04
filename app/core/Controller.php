@@ -4,6 +4,8 @@ namespace app\core;
 
 class Controller
 {
+    protected $twig;
+
     function __construct()
     {
         $loader = new \Twig\Loader\FilesystemLoader(__DIR__);
@@ -12,3 +14,5 @@ class Controller
     }
 
 }
+
+?>
