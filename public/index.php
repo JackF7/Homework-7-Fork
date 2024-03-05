@@ -12,7 +12,7 @@ use app\controllers\UserController;
 use app\controllers\PostController;
 
 
-$url = $_SERVER["REQUEST_URI"];
+$url = $_SERVER["REQUEST_URI"]; 
 
 $mainController = new MainController();
 $postController = new PostController(); 

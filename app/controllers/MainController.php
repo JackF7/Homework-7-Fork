@@ -11,15 +11,17 @@ class MainController extends Controller
     {
         $template = $this->twig->load('main/homepage.twig');
         $homepageData = [
-            'title' => 'Homepage Title',
+            'title' => "Jack Forester's Homepage",
         ];
 
         echo $template->render($homepageData);
     }
 
     public function notFound() {
-        $template = $this->twig->load('errors/404.twig');
-        echo $template->render();
-    }
 
+        $template = $this->twig->load('notFound/notFound.twig');
+        http_response_code(404);
+        echo $template->render(); 
+
+    }   
 }
