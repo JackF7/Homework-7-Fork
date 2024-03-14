@@ -1,0 +1,17 @@
+1) Escaping data involves removing and replacing any unwanted characters, such as HTML reserved characters. We do this to avoid security vulnerabilities and hackers sending malicious code, like with an XSS attack.
+
+2) REST, short for REpresentational State Transfer, defines an architectural approach for establishing standards among computer systems on the internet, facilitating smoother communication between them. Systems adhering to REST, commonly referred to as RESTful systems, exhibit characteristics of being stateless and emphasizing the segregation of client and server concerns. Statelessness means that the server does not need to know anything about what state the client is in and vice versa.
+
+   a. Resources refer to any object, document, or thing on the Web that you may need to store or send to other services.
+
+   b. To get a list of users:
+      GET fashionboutique.com/users
+   To get a particular user:
+      GET fashionboutique.com/users/:id
+   To save a user:
+      POST fashionboutique.com/users/:id
+
+3) A cookie is a piece of data that a website sends to a user's web browser. Cookies are commonly used for session management, personalization, tracking user behavior, and storing user preferences. The user’s device stores the cookie to remember information about the user's interaction with the website.
+
+4) A session refers to the period when a user interacts with a website or web application, starting from login until logout or departure. During this time, the system tracks user actions and preferences, often using cookies to maintain continuity. Sessions enable personalized experiences and secure access, ending when the user logs out or becomes inactive.
+

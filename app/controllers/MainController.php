@@ -20,7 +20,7 @@ class MainController extends Controller
     public function notFound() {
 
         $template = $this->twig->load('notFound/notFound.twig');
-        http_response_code(404);git add .
+        http_response_code(404);
         echo $template->render(); 
 
     }   

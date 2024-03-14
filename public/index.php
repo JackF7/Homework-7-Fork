@@ -26,6 +26,10 @@ switch ($url) {
         $postController->index();
         break;
 
+    case "/form":
+        $postController->form();
+        break;
+
     case "/":
         $mainController->homepage(); 
         break;
@@ -34,5 +38,3 @@ switch ($url) {
         $mainController->notFound();
         break;
 }
-
-?>
