@@ -15,6 +15,14 @@
             margin: 0;
         }
 
+        .errors {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
     </style>
 </head>
 <body>
@@ -41,13 +49,14 @@
         </form>
     </div>
 
-    <div class="succces_and_errors">
+    <div class="errors">
         {% if error %}
             {% for err in error %}
                 <h2>{{ err.title }}</h2>
             {% endfor %}
         {% endif %}
-
+    </div>
+     <div class="success">
         {% if success %}
          <h2>{{ success }}</h2>
         {% endif %}
